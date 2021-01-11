@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: tomato;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.text span {
+    margin-left: -25px;
+    padding: 0;
+}
+
+.text {
+    font-family: arial black;
+    font-size: 100px;
+    color: transparent;
+    transform: skewY(-10deg) skewX(35deg);
+    text-shadow: -15px 15px 0 rgba(255, 215, 0, 1),
+                 -16px 16px 0 rgba(64, 64, 64, 1);
+    position: relative;
+    z-index: 1;
+}
+
+.w, .o, .r, .d {
+    text-shadow: -16px 16px 0 rgba(255, 215, 0, 1),
+                 -17px 17px 0 rgba(64, 64, 64, 1),
+                -18px 18px 0 rgba(64, 64, 64, 1),
+        -19px 19px 0 rgba(64, 64, 64, 1),
+        -20px 20px 0 rgba(64, 64, 64, 1),
+        -21px 21px 0 rgba(64, 64, 64, 1),
+        -22px 22px 0 rgba(64, 64, 64, 1),
+        -23px 23px 0 rgba(64, 64, 64, 1),
+        -24px 24px 0 rgba(64, 64, 64, 1),
+        -25px 25px 0 rgba(64, 64, 64, 1),
+        -26px 26px 0 rgba(64, 64, 64, 1),
+        -27px 27px 0 rgba(64, 64, 64, 1),
+        -28px 28px 0 rgba(64, 64, 64, 1),
+        -29px 29px 0 rgba(64, 64, 64, 1),
+        -30px 30px 0 rgba(64, 64, 64, 1);
+    position: relative;
+    z-index: 10;
+}
